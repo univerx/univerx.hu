@@ -1,5 +1,7 @@
 body {
     background-color: #141220;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -72,7 +74,78 @@ h3 {
     width: 40px;
     height: 40px;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    img {
+        height: 500px;
+    }
+
+    h1 {
+        font-size: 60px;
+        letter-spacing: 10px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    #box {
+        height: auto;
+        padding: 20px;
+    }
+
+    #social-icons {
+        top: 10px;
+        right: 10px;
+    }
+
+    #social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        height: 320px;
+    }
+
+    h1 {
+        font-size: 60px;
+        letter-spacing: 5px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    #box {
+        height: auto;
+        padding: 10px;
+    }
+
+    #social-icons {
+        top: 5px;
+        right: 5px;
+    }
+
+    #social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #social-icons {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    #title {
+        margin-top: 10px;
+    }
 }
