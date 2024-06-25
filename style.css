@@ -1,10 +1,9 @@
 body {
-    background-color: #0c0e13;
+    background-color: #141220;
 }
 
 img {
-    height: 700px;
-    border-radius: 60px;
+    height: 600px;
     rotate: -10deg;
 }
 
@@ -53,9 +52,27 @@ h3 {
     border-radius: 20px;
     cursor: pointer;
     margin-bottom: 40px;
-
 }
 
 #download-button:hover {
     background-color: #1662c4;
+}
+
+#social-icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#social-icons a {
+    margin-left: 10px;
+}
+
+#social-icons img {
+    width: 40px;
+    height: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
